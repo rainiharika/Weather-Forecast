@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+    <div class="container text-center">
+        <h1 class="fw-bold fs-1 text-primary">Short URL</h1>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8 mx-auto">
+                <div class="p-3 border border-dark rounded">
+                    <p class="lead fw-bold">Paste the URL to be shortened</p>
+                    <form id="shorten-form">
+                        <div class="form-group mt-2">
+                            <div class="row no-gutters">
+                                <div class="col-9">
+                                    <input type="url" class="form-control" placeholder="Enter the link here" required>
+                                </div>
+                                <div class="col-3 ml-0">
+                                    <select class="form-control">
+                                        <option value="default">Default</option>
+                                        <option value="custom1">Custom 1</option>
+                                        <option value="custom2">Custom 2</option>
+                                        <!-- Add more options as needed -->
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-2">Shorten URL</button>
+                    </form>
+                    <p class="mt-3">
+                        ShortURL is a free tool to shorten URLs and generate short links. URL shortener allows to create a shortened link making it easy to share.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8 mx-auto">
+                <div class="p-3 border border-dark rounded">
+                    <h3>Want More? Try Premium Features!</h3>
+                    <p>Custom short links, powerful dashboard, detailed analytics, API, UTM builder, QR codes, browser extension, app integrations and support.</p>
+                    <button class="btn btn-info">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
